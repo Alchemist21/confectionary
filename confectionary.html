@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NYC Confectionery</title>
+	<style type="text/css">
+		body{
+			background-color: #66B2FF;
+		}
+    h1{
+      text-align: center;
+			background-color: #CC99FF;
+
+    }
+		button{
+			width: 100px;
+			height: 100px;
+      border-radius: 50%;
+      border: 2px solid #f5f5f5;
+			background-color: #efb2d1;
+      text-align: center;
+		}
+		div{
+			margin-bottom: 20px;
+      display: inline-block;
+		}
+
+		#div2 {
+			position: absolute;
+	 		left: 50%;
+	 		margin-left: -100px;
+		}
+
+    #feel-guilty{
+      width: auto;
+      height: 50px;
+      border-radius: 15px;
+			text-align: center;
+
+    }
+	</style>
+</head>
+<body>
+<div class="container">
+		<h1>New York City Confectionary</h1>
+	<hr>
+	<div id="div1">
+		Sugar Cookie: <span id="sugar-count">0</span> <button id="add-sugar">More Sugar</button><br>
+	</div>
+	<div>
+		Chocolate Cookie: <span id="choco-count">0</span> <button id="add-choco">More Chocolate</button><br>
+	</div>
+	<div>
+		Lemon Cookie: <span id="lemon-count">0</span> <button id="add-lemon">More Lemon</button><br>
+	</div>
+	<hr>
+
+	<div id="div2">
+
+		<button id="feel-guilty">I feel guilty</button>
+	</div>
+	</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+<script type="text/javascript" src="confectionary.js"></script>
+</body>
+</html>
